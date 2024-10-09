@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView"
+        android:layout_width="173dp"
+        android:layout_height="178dp"
+        android:clipToOutline="true"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        app:srcCompat="@drawable/image5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:layout_width="174dp"
+        android:layout_height="311dp"
+        android:clipToOutline="true"
+        android:src="@drawable/image3"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:layout_width="173dp"
+        android:layout_height="178dp"
+        android:clipToOutline="true"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        app:srcCompat="@drawable/image4"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:layout_width="173dp"
+        android:layout_height="178dp"
+        android:clipToOutline="true"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        app:srcCompat="@drawable/image6"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:layout_width="174dp"
+        android:layout_height="311dp"
+        android:clipToOutline="true"
+        android:src="@drawable/image2"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="404dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/shapeableImageView"
+        android:layout_width="173dp"
+        android:layout_height="178dp"
+        android:clipToOutline="true"
+        app:shapeAppearanceOverlay="@style/roundImageView"
+        app:srcCompat="@drawable/image6"
+        tools:ignore="DuplicateIds,MissingConstraints"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
